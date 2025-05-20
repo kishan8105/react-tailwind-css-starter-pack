@@ -7,6 +7,7 @@ import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
 import Projects from './components/sections/Projects';
+import AboutMe from './components/sections/AboutMe';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
-      <Education />
       <Projects />
+      <AboutMe/>
+      <Education />
       <Certificates />
       <Contact />
       <Footer />

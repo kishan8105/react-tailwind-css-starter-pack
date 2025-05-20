@@ -21,7 +21,7 @@ function Navbar() {
       setIsScrolled(scrollPosition > 20);
       
       // Update active section based on scroll position with improved detection
-      const sections = ['hero', 'skills', 'education', 'projects', 'contact'];
+      const sections = ['hero', 'skills', 'education', 'projects','about', 'contact'];
       let closestSection = 'hero';
       let closestDistance = Infinity;
       
@@ -105,6 +105,22 @@ function Navbar() {
       hoverColor: 'from-emerald-400 to-teal-500',
       shadowColor: 'rgba(5, 150, 105, 0.4)'
     },
+     { 
+      id: 'projects', 
+      label: 'Projects', 
+      icon: '🚀',
+      color: 'from-purple-500 to-violet-600',
+      hoverColor: 'from-purple-400 to-violet-500',
+      shadowColor: 'rgba(124, 58, 237, 0.4)'
+    },
+    { 
+      id: 'about', 
+      label: 'About', 
+      icon: '👨‍🎓',
+      color: 'from-purple-500 to-violet-600',
+      hoverColor: 'from-purple-400 to-violet-500',
+      shadowColor: 'rgba(124, 58, 237, 0.4)'
+    },
     { 
       id: 'education', 
       label: 'Education', 
@@ -113,14 +129,7 @@ function Navbar() {
       hoverColor: 'from-amber-400 to-orange-500',
       shadowColor: 'rgba(217, 119, 6, 0.4)'
     },
-    { 
-      id: 'projects', 
-      label: 'Projects', 
-      icon: '🚀',
-      color: 'from-purple-500 to-violet-600',
-      hoverColor: 'from-purple-400 to-violet-500',
-      shadowColor: 'rgba(124, 58, 237, 0.4)'
-    },
+   
     { 
       id: 'contact', 
       label: 'Contact', 

@@ -51,7 +51,7 @@ const ProjectCard = ({
   imageSrc,
   delay = 0,
 }) => {
-  const [ setIsHovered] = useState(false);
+const [isHovered, setIsHovered] = useState(false);
 
   return (
     <motion.div
